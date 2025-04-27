@@ -171,7 +171,62 @@ https://templatemo.com/tm-582-tale-seo-agency
             <div class="line-dec"></div>
             <h4>Dive <em>Into The SEO</em> World <span>With Tale</span></h4>
             <p>Tale is the best SEO agency website template using Bootstrap v5.2.2 CSS for your company. It is a free download provided by TemplateMo. There are 3 HTML pages, <a href="index.html">Home</a>, <a href="about.html">About</a>, and <a href="faqs.html">FAQ</a>.</p>
-            <div class="main-button scroll-to-section"><a href="#services">Discover More</a></div>
+            <div class="main-button scroll-to-section"><a href="#services".services {
+  position: relative;
+  overflow: hidden;
+}
+
+.services .section-heading h2 {
+  padding-right: 30px;
+}
+
+.services::before {
+  content: url(../images/services-left.webp);
+  top: 120px;
+  left: 0;
+  position: absolute;
+  width: 844px;
+  height: 714px;
+  z-index: -1;
+}
+
+.services::after {
+  content: url(../images/contact-left.webp);
+  bottom: -150px;
+  right: 0;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  position: absolute;
+  width: 103px;
+  height: 464px;
+  z-index: -1;
+}
+
+.services .service-item {
+  border: 1px solid #f3d7ff;
+  border-radius: 23px;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  transition: all .4s;
+}
+
+.services .service-item h4 {
+  font-size: 20px;
+  color: #2a2a2a;
+  margin-top: 20px;
+  line-height: 30px;
+  transition: all .4s;
+}
+
+.services .service-item:hover {
+  border-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.services .service-item:hover h4 {
+  color: #5b03e4;
+}>Discover More</a></div>
             <span>or</span>
             <div class="second-button"><a href="faqs.html">Check our FAQs</a></div>
           </div>
