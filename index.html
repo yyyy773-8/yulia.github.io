@@ -84,7 +84,62 @@ https://templatemo.com/tm-582-tale-seo-agency
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                       <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                      <li class="scroll-to-section"><a href="#services">Services</a></li>
+                      <li class="scroll-to-section"><a href="#services" .services {
+  position: relative;
+  overflow: hidden;
+}
+
+.services .section-heading h2 {
+  padding-right: 30px;
+}
+
+.services::before {
+  content: url(../images/services-left.webp);
+  top: 120px;
+  left: 0;
+  position: absolute;
+  width: 844px;
+  height: 714px;
+  z-index: -1;
+}
+
+.services::after {
+  content: url(../images/contact-left.webp);
+  bottom: -150px;
+  right: 0;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  position: absolute;
+  width: 103px;
+  height: 464px;
+  z-index: -1;
+}
+
+.services .service-item {
+  border: 1px solid #f3d7ff;
+  border-radius: 23px;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  transition: all .4s;
+}
+
+.services .service-item h4 {
+  font-size: 20px;
+  color: #2a2a2a;
+  margin-top: 20px;
+  line-height: 30px;
+  transition: all .4s;
+}
+
+.services .service-item:hover {
+  border-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.services .service-item:hover h4 {
+  color: #5b03e4;
+}>Services</a></li>
                       <li class="scroll-to-section"><a href="#projects">Projects</a></li>
                       <li class="has-sub">
                           <a href="javascript:void(0)">Pages</a>
