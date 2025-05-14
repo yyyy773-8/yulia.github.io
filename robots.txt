@@ -1,0 +1,5 @@
+User-agent
+Allow: /* .css
+Allow: /* .js
+Allow: /* .html
+Sitemap: https://yyyy773-8.github.io/yulia.github.io/
