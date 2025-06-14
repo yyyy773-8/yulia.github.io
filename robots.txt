@@ -1,5 +1,6 @@
-User-agent
+User-agent:
+Disallow: /admin/
 Allow: /* .css
 Allow: /* .js
 Allow: /* .html
-Sitemap: https://yyyy773-8.github.io/yulia.github.io/
+Sitemap: https://yyyy773-8.github.io/sitemap.xml
